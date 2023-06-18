@@ -1,0 +1,30 @@
+body {
+    background-color: #d8bfd8;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  form {
+    font-family: verdana;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 250px;
+    margin-right: 200px;
+    margin-left: 700px;
+    width: 400px;
+    padding: 70px;
+    border: 3px solid black;
+    margin: 100;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Black */
+    border-radius: 4px;
+  }
