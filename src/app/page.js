@@ -17,7 +17,7 @@ export default async function Home() {
           <p>{produto.data_cadastro}</p>
           <p>{produto.preco}</p>
           <p>{produto.descricao}</p>
-          <p>{produto.imagem}</p>
+          <img src="{produto.imagem}"/>
           <Link href={`/produto/${produto.id}`}>ver mais</Link>
         </div>
       ))}
